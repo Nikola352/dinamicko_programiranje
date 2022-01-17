@@ -4,13 +4,6 @@ using namespace std;
 const int N = 150;
 int arr[N];
 
-int mind(int a, int b){
-    if(a == -1) return b;
-    if(b == -1) return a;
-    if(a < b) return a;
-    return b; 
-}
-
 int main()
 {
     int n;
